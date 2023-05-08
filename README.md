@@ -108,8 +108,10 @@ else:
 1)
 ![6](https://user-images.githubusercontent.com/119393023/236852301-44cc881f-1f12-49fb-8db8-1cd28cb3e226.png)
 
+
 2)
 ![5](https://user-images.githubusercontent.com/119393023/236852380-b3e54429-4e3e-45fa-ac80-aeed84d899f4.png)
+
 
 3)
 ![04](https://user-images.githubusercontent.com/119393023/236858376-9819f296-82ee-418e-a37f-750a86b67f7e.png)

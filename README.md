@@ -114,7 +114,7 @@ else:
 ![5](https://user-images.githubusercontent.com/119393023/236852380-b3e54429-4e3e-45fa-ac80-aeed84d899f4.png)
 
 3)
-
+![04](https://user-images.githubusercontent.com/119393023/236858376-9819f296-82ee-418e-a37f-750a86b67f7e.png)
 
 ## Result
 Thus the linear search and binary search algorithm is implemented using python programming.

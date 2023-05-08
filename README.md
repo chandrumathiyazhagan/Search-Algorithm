@@ -47,32 +47,30 @@ else:
 ```
 ii)	# Find the element in a list using Binary Search(Iterative Method).
 ```
-
 ''' 
 Program to find the element in a list using Binary Search(Iterative Method)..
 Developed by: M.CHANDRU
 RegisterNumber: 212222230026
 '''
-def binarySearch(array, k, low, high):
-    if high >= low:
-        mid = low + (high - low)//2
-        if arr[mid] == k:
+def binarySearchIter(array, k, low, high):
+    while low <= high:
+        mid = low+(high-low)//2
+        if array[mid]==k:
             return mid
-        elif arr[mid] > k:
-            return binarySearch(arr, k, low, mid-1)
+        elif array[mid]<k:
+            low=mid+1
         else:
-            return binarySearch(arr, k,mid +1,high)
-    else: 
-        return -1
-arr=eval(input())
-arr.sort()
+                high=mid-1
+    return -1
+array = eval(input())
+array.sort()
 k=eval(input())
-result =  binarySearch(arr, k, 0,len(arr)-1)
-if(result == -1):
-    print(arr)
+result=binarySearchIter(array,k,0,len(array)-1)
+if(result==-1):
+    print(array)
     print("Element not found")
 else:
-    print(arr)
+    print(array)
     print("Element found at index: ",result)
 
 ```
